@@ -23,7 +23,7 @@ ollama --version
 
 ##### 2. Скачайте teaOGL для своей архитектуры:
 
-Для этого перейдите в папку [`bin/`](bin/) или [releases](#TODO) на GitHub и скачайте нужную Вам!
+Для этого перейдите в папку [`bin/`](bin/) или [releases](https://github.com/MichiTheCat-RedStar/teaOGL-tool/releases) на GitHub и скачайте нужную Вам!
 
 ##### 3. Скачайте GGUF модель:
 
@@ -36,7 +36,7 @@ ollama --version
 **Но!** Есть способ удобнее, можно просто прописать в терминале где находится исполняемый файл:
 
 ```bash
-teaOGL <имя модели> <путь до GGUF>	# "teaOGL" может отличаться, в зависимости от того, что вы скачали, но можно переименовать
+./teaOGL <имя модели> <путь до GGUF>	# "teaOGL" может отличаться, в зависимости от того, что вы скачали, но можно переименовать
 ```
 
 ##### 5. Удобство!
@@ -94,7 +94,7 @@ If you get an error, visit [the Ollama website](https://ollama.com) and download
 
 ##### 2. Download teaOGL for your architecture:
 
-Go to the [`bin/`](bin/) folder or [releases](#TODO) on GitHub and download the one you need!
+Go to the [`bin/`](bin/) folder or [releases](https://github.com/MichiTheCat-RedStar/teaOGL-tool/releases) on GitHub and download the one you need!
 
 ##### 3. Download a GGUF model:
 
@@ -107,7 +107,7 @@ Simply run the executable and enter the requested information when prompted…
 **But!** There is an even easier way: just run the executable from the terminal with the following arguments:
 
 ```bash
-teaOGL <model name> <path to GGUF>	# "teaOGL" may differ depending on what you downloaded, but you can rename it
+./teaOGL <model name> <path to GGUF>	# "teaOGL" may differ depending on what you downloaded, but you can rename it
 ```
 
 ##### 5. Convenience!
